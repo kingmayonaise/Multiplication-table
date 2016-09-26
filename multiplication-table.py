@@ -28,3 +28,4 @@ height=8
 while width>0:
     for i in range(height):
         print(i)
+        width-=1
