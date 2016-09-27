@@ -23,11 +23,15 @@ Height of multiplication table: 8
 """
 #width=int(input("Width of multiplication table: "))
 #height=int(input("Height of multiplication table: "))
-width=10
-height=8
+width=20
+height=20
+num_str=""
 for i in range(1,height+1):
+    num_str=""
     for k in range(1,width+1):
-        print(i*k),
+        n=i*k
+        num_str+=str(n)+" "
+    print (num_str)
 
 
 
