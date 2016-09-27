@@ -25,7 +25,13 @@ Height of multiplication table: 8
 #height=int(input("Height of multiplication table: "))
 width=10
 height=8
-for i in range(height):
-    widthlist=list(range(width))
-    for n in widthlist
-    print(widthlist)
+for i in range(1,height+1):
+    for k in range(1,width+1):
+        print(i*k),
+
+
+
+
+
+
+
